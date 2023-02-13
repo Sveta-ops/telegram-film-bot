@@ -1,17 +1,10 @@
 const TelegramBot = require('node-telegram-bot-api')
-const mongoose = require('mongoose')
 const config = require('./config')
 const helper = require('./helpers')
 const kb = require('./keyboard-buttons')
 const keyboard = require('./keyboard')
 
 helper.logStart()
-
-mongoose.connect(config.DB_URL, {
-	useMongoClient: true
-})
-	.then(() => console.log('База данных подключена'))
-	.catch((err) => console.log(err))
 
 let genreId = ''
 let countryId = ''
