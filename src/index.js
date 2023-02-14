@@ -1,4 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api')
+const sequelize = require('../database')
+const FilmModel = require('./models/film-model')
 const config = require('./config')
 const helper = require('./helpers')
 const kb = require('./keyboard-buttons')
@@ -15,6 +17,14 @@ const bot = new TelegramBot (config.TOKEN, {
 	}
 })
 
+const start = async () => {
+	try {
+		await sequelize.authenticate()
+		await sequelize.sync()
+	} catch (e) {
+		console.log('Подключение к бд сломалось')
+	}
+}
 bot.onText(/\/start/, msg => {
 	console.log(msg)
 	bot.sendMessage (helper.getChatId(msg), 'Привет, ' + msg.from.first_name + ', чем могу тебе помочь?)', {
@@ -137,3 +147,5 @@ bot.on('callback_query', query => {
 		})
 	}
 })
+
+start()
