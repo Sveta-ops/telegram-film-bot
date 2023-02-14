@@ -1,0 +1,52 @@
+{
+    "films": [
+        {
+            "uuid": "f123",
+            "name": "После. Долго и счастливо",
+            "genre": "Драма",
+            "country": "Америка",
+            "picture": "https://www.kinopoisk.ru/film/1411988/posters/",
+            "year": "Современный фильм"
+        },
+        {
+            "uuid": "f124",
+            "name": "Привычка расставаться",
+            "genre": "Драма",
+            "country": "Россия",
+            "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kinopoisk.ru%2Ffilm%2F710276%2F&psig=AOvVaw2dwsSMME8Jq2g8niFBmIVo&ust=1676461614175000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKCX7qj4lP0CFQAAAAAdAAAAABAE",
+            "year":"Современный фильм"
+        },
+        {
+            "uuid": "f125",
+            "name": "Тихое место",
+            "genre": "Хорор",
+            "country": "Америка",
+            "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%25A2%25D0%25B8%25D1%2585%25D0%25BE%25D0%25B5_%25D0%25BC%25D0%25B5%25D1%2581%25D1%2582%25D0%25BE&psig=AOvVaw1d9eB1BlrH2W_OyY6xLV6O&ust=1676461693264000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLD-x874lP0CFQAAAAAdAAAAABAE",
+            "year": "Современный фильм"
+        },
+        {
+            "uuid": "f126",
+            "name": "Годзила",
+            "genre":"Хорор",
+            "country": "Япония",
+            "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kinopoisk.ru%2Ffilm%2F63873%2F&psig=AOvVaw3yFLo1dB7cxVUZvk3qRSSg&ust=1676462062309000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLC2w_75lP0CFQAAAAAdAAAAABAE",
+            "year": "60ые" 
+        },
+        {
+            "uuid": "f127",
+            "name": "О чем говорят мужчины",
+            "genre": "Комедия",
+            "country": "Россия",
+            "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kinopoisk.ru%2Ffilm%2F468102%2F&psig=AOvVaw2m4vVH9PmlBXb-pf7DsPH7&ust=1676462161639000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKCc9a36lP0CFQAAAAAdAAAAABAE",
+            "year": "00ые"
+        },
+        {
+            "uuid": "f128",
+            "name": "Одуванчик",
+            "genre":"Комедия", 
+            "country": "Япония",
+            "picture": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/ef71e87b-a943-4a82-bb55-c0a40aa10463/1920x",
+            "year": "90ые"
+        }
+    ]
+}
